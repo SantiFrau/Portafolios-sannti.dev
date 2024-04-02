@@ -1,6 +1,7 @@
 import Inicio from "./components/inicio"
 import About from "./components/about"
 import Stack from "./components/stack"
+import Proyectos from "./components/Proyectos"
 
 function App() {
   
@@ -13,6 +14,8 @@ function App() {
       <About></About>
 
       <Stack></Stack>
+
+      <Proyectos></Proyectos>
     </>
   )
 }

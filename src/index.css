@@ -5,6 +5,9 @@
 .bg-white-200{
   background-color: #bbb;
 }
+.shadow-b{
+  box-shadow: 0px 0px 2px 0px #bbb;
+}
 
 .fondo_img{
   background-image: url("/fondo.jpg");
