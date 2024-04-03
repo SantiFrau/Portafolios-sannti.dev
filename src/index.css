@@ -91,7 +91,7 @@
 .animacion1{
   animation: aparecer auto forwards;
   animation-timeline: view();
-  animation-range: entry 1% cover 31%;
+  animation-range: entry 1% cover 45%;
 
 }
 
