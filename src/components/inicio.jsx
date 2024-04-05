@@ -24,14 +24,15 @@ export default function Inicio () {
     return(
       
          
-        <div className="bg-zinc-800 bg-opacity-70 w-full h-screen ">
+        <div id="top" className="bg-black bg-opacity-60 w-full h-screen ">
                 <nav className="bg-zinc-900 bg-opacity-80 w-full h-12 fixed mt-8 nav z-10 flex flex-row justify-between items-center">
                    <h3 className="text-white px-5 w-1/4">Sannti.dev</h3>
                   <ul className="h-full w-full flex flex-row gap-10 items-center justify-center">
-                    <li className="text-white kalam hover:text-zinc-400 ">Inicio</li>
-                    <li className="text-white kalam hover:text-zinc-400 ">Sobre mi</li>
-                    <li className="text-white kalam hover:text-zinc-400 ">Proyectos</li>
-                    <li className="text-white kalam hover:text-zinc-400 ">Contacto</li>
+                    <li className="text-white kalam hover:text-zinc-400 "><a href="#top">Inicio</a></li>
+                    <li className="text-white kalam hover:text-zinc-400 "><a href="#sobre-mi">Sobre mi</a></li>
+                    <li className="text-white kalam hover:text-zinc-400 "><a href="#stack">Stack</a></li>
+                    <li className="text-white kalam hover:text-zinc-400 "><a href="#proyectos">Proyectos</a></li>
+                    
                   </ul>
                   <div className="w-1/4 px-5 flex justify-end">
          

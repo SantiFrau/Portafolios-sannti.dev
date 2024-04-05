@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .bg-white-200{
   background-color: #bbb;
 }
@@ -156,3 +157,7 @@
   animation-range: 0 400px;
 
 }
+
+
+
+

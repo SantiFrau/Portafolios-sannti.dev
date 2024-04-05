@@ -3,7 +3,7 @@
 export default function About() {
 
     return (
-        <div className="w-full h-max flex flex-row gap-10 pb-20 pt-20 bg-white-200">
+        <div id="sobre-mi" className="w-full h-max flex flex-row gap-10 pb-20 pt-20 bg-white-200">
 
                                   <div className="relative bg-white-200 w-1/3 flex items-center justify-center py-10 animacion1">
                                     <div className="z-20 w-64 h-40 relative"> 
