@@ -5,7 +5,7 @@ export default function Stack () {
 
     return (<>
       
-        <h2 className=" w-full font-bold text-red-600 h-max p-20 text-center text-4xl kalam bg-black bg-opacity-60">Stack de Tecnologias</h2>
+        <h2 className=" w-full font-bold text-red-600 h-max p-20 text-center text-4xl kalam bg-black bg-opacity-80">Stack de Tecnologias</h2>
         
         <div id="stack" className="w-full h-max grid grid-cols-2 text-white gap-4 bg-white-200 px-5 py-40">
 

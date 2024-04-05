@@ -17,9 +17,14 @@ export default function About() {
                 <section className=" flex flex-col justify-center bg-white-200 gap-2 px-10 ">
                  <h3 className=" kalam text-4xl font-thin ">Santiago Frau</h3>
                  <p className="text-red-600 text-xl">Desarrollador web</p>
-                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod nesciunt voluptatum, error quos qui quia explicabo, dicta natus sit suscipit possimus consequuntur. Cumque eum sit eaque tempore autem. Adipisci, illum!</p>
+                 <p>¡Hola! Soy Santiago Frau, un apasionado desarrollador web front-end de Argentina.
+                     Empece en la programacion web en un curso de la facultad UADER y luego segui estudiando de forma autodidacta, 
+                     mi fascinación por la tecnología me impulsa a mantenerme constantemente actualizado con las últimas tendencias y herramientas en
+                     el mundo del desarrollo web.
+                     Considero que cada proyecto es una oportunidad para explorar nuevas tecnologías y técnicas,
+                     llevando mis habilidades al siguiente y comprometido con la excelencia y la mejora constante.</p>
                  <ul className="flex flex-col ">
-                    <li><span className="text-red-800 font-bold text-lg">From :</span> Argentina</li>
+                    <li><span className="text-red-800 font-bold text-lg">Ubicacion :</span> Argentina</li>
                     <li><span className="text-red-800 font-bold text-lg">Edad :</span> 19</li>
                  </ul>
                  </section>

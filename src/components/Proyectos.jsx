@@ -5,14 +5,14 @@ export default function Proyectos(){
     
     return(
         <>
-        <h4 className="w-full h-max p-10 text-center text-red-600 text-4xl font-bold kalam bg-black bg-opacity-60">Proyectos</h4>
-        <aside id="proyectos" className="w-full h-max bg-zinc-900 flex flex-row items-center justify-center flex-wrap gap-5 p-10 py-40">
+        <h4 className="w-full h-max p-10 text-center text-red-600 text-4xl font-bold kalam bg-black bg-opacity-80">Proyectos</h4>
+        <aside id="proyectos" className="w-full h-max bg-zinc-900 flex flex-row items-center justify-center flex-wrap gap-10 p-10 py-40">
             
             {
               proyectos.map((proyecto ,i)=>{
                  
                 return(
-                    <div key={i+150} className="flex flex-col items-center justify-center gap-3  w-96  bg-zinc-800 pt-5 rounded-l-2xl animacion1">
+                    <div key={i+150} className="hover:scale-110 transition-all flex flex-col items-center justify-center gap-10  w-96  bg-zinc-800 pt-5 rounded-l-2xl animacion1">
                         <div className="flex flex-row rounded-l-full bg-zinc-900 p-2 h-40 shadow-b">
                         <img className="w-64 h-full rounded-l-full" src={`/proyectos/${proyecto.id}/1.webp`} alt="" />
                            <ul className={`flex flex-col gap-2 justify-center overflow-auto items-center w-full h-full p-3 ${(proyecto.id==0) ? "pt-24" : null}`}>
@@ -29,7 +29,7 @@ export default function Proyectos(){
                            </ul>
                         </div>
                         
-                        <p className="text-lg kalam font-bold bg-white-200 w-full h-full py-5 text-center">{proyecto.name}</p>
+                        <p className="bg-opacity-70 text-lg kalam font-bold bg-zinc-900 text-white w-full h-full py-5 text-center">{proyecto.name}</p>
                         
                     </div>
                 )
