@@ -33,6 +33,7 @@ export default function Inicio () {
                     <li className="text-white kalam hover:text-zinc-400 "><a href="#sobre-mi">Sobre mi</a></li>
                     <li className="text-white kalam hover:text-zinc-400 "><a href="#stack">Stack</a></li>
                     <li className="text-white kalam hover:text-zinc-400 "><a href="#proyectos">Proyectos</a></li>
+                    <li className="text-white kalam hover:text-zinc-400 "><a href="#end">Contacto</a></li>
                     
                   </ul>
                   <div className="w-1/4 px-5 flex justify-end">

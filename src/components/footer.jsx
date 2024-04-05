@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function Footer(){
 
     return (
-        <footer className="w-full h-max text-white  flex flex-col">
+        <footer id="end" className="w-full h-max text-white  flex flex-col">
          <div className=' w-full h-max  bg-black bg-opacity-90 flex flex-row gap-5 py-10 justify-between'>
          <div className='flex flex-row w-max h-max gap-5 p-3 px-8'>
             <div className=' kalam font-bold text-4xl'>
