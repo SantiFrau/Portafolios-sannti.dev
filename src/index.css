@@ -237,5 +237,9 @@
   
 }
 
+.modal-open {
+  overflow: hidden;
+}
+
 
 

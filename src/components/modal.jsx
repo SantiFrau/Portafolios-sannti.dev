@@ -1,10 +1,12 @@
 import { stack } from "../data/stack"
-import {  useState } from "react"
+import {  useState ,useEffect} from "react"
 
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 export default function Modal_info({setProyecto_info,proyecto_info}) {
+    
+  
 
     const [imagen,setImagen] = useState(1);
     const [prevSource, setPrevSrc] = useState("");  // estado para la  imgane previa 
@@ -49,13 +51,18 @@ export default function Modal_info({setProyecto_info,proyecto_info}) {
           <button className="text-white hover:text-zinc-400 text-2xl absolute top-0 right-0 p-3 px-5" onClick={()=>{setProyecto_info(false);setImagen(1)}}>x</button>
             <div className="flex flex-row gap-3 text-white items-center justify-center">
 
-
-            <ArrowBackIosIcon onClick={(event)=>{event.stopPropagation(); previous(proyecto_info.imagenes)}} className="hover:text-zinc-400 cursor-pointer" style={{fontSize:40}}></ArrowBackIosIcon>
+            <div className="w-max h-full flex items-center justify-center hover:text-zinc-400 cursor-pointer px-3" onClick={(event)=>{event.stopPropagation(); previous(proyecto_info.imagenes)}} >
+            <ArrowBackIosIcon  style={{fontSize:36}}></ArrowBackIosIcon>
+            </div>
+            
            
             <Img className={`${animacion.movimiento} z-10 w-2/3 `} src={`/proyectos/${proyecto_info.id}/${imagen}.webp`}  />
             <Img className={`w-2/3 ${animacion.movimiento} ${animacion.desaparecer}  absolute z-0 `} src={`/proyectos/${proyecto_info.id}/${prevSource}.webp`}
              />
-            <ArrowForwardIosIcon onClick={(event)=>{event.stopPropagation(); next(proyecto_info.imagenes)}} className="hover:text-zinc-400 cursor-pointer" style={{fontSize:40}}></ArrowForwardIosIcon>
+             <div className="w-max h-full flex items-center justify-center hover:text-zinc-400 cursor-pointer px-3" onClick={(event)=>{event.stopPropagation(); next(proyecto_info.imagenes)}} >
+             <ArrowForwardIosIcon  style={{fontSize:36}}></ArrowForwardIosIcon>
+             </div>
+            
             
             
             </div>

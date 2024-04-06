@@ -1,13 +1,23 @@
 import Modal_info from "./modal"
 import { proyectos } from "../data/proyectos"
 import { stack } from "../data/stack"
-import {  useState } from "react"
+import {  useState ,useEffect} from "react"
 
 
 export default function Proyectos(){
 
     const [proyecto_info,setProyecto_info] = useState(false)
-    
+
+    //desactivar el scroll cuando se abre el modal
+    useEffect(() => {
+      if (proyecto_info) {
+          // Agregar clase al body para deshabilitar el desplazamiento
+          document.body.classList.add('modal-open');
+      } else {
+          // Eliminar clase del body para permitir el desplazamiento
+          document.body.classList.remove('modal-open');
+      }
+  }, [proyecto_info]);
 
     return(
         <>
