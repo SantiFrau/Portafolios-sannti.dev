@@ -22,9 +22,9 @@ export default function Footer(){
          <div className='w-full flex items-center justify-center'>
             <h5 className='font-bold text-xl kalam hidden sm:block'>Redes:</h5>
             <ul className='flex flex-row gap-2'>
-                <li><a target="_blank" href=""><InstagramIcon className='hover:text-zinc-400' style={{fontSize:38}}></InstagramIcon></a></li>
-                <li><a target="_blank" href=""><GitHubIcon className='hover:text-zinc-400' style={{fontSize:38}}></GitHubIcon></a></li>
-                <li><a target="_blank" href=""><LinkedInIcon className='hover:text-zinc-400' style={{fontSize:38}}></LinkedInIcon></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/sannti.dev/"><InstagramIcon className='hover:text-zinc-400' style={{fontSize:38}}></InstagramIcon></a></li>
+                <li><a target="_blank" href="https://github.com/SantiFrau"><GitHubIcon className='hover:text-zinc-400' style={{fontSize:38}}></GitHubIcon></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/santiago-frau/"><LinkedInIcon className='hover:text-zinc-400' style={{fontSize:38}}></LinkedInIcon></a></li>
             </ul>
          </div>
 
