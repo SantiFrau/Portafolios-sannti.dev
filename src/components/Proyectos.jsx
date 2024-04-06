@@ -21,17 +21,17 @@ export default function Proyectos(){
 
     return(
         <>
-        <h4 className="w-full h-max p-10 text-center text-red-600 text-4xl font-bold kalam bg-black bg-opacity-80">Proyectos</h4>
-        <aside id="proyectos" className="w-full h-max bg-zinc-900 flex flex-row items-center justify-center flex-wrap gap-10 p-10 py-40">
+        <h4 className="w-full h-full p-10 text-center text-red-600 text-4xl font-bold kalam bg-black bg-opacity-80">Proyectos</h4>
+        <aside id="proyectos" className="w-full h-max bg-zinc-900 flex flex-row items-center justify-center flex-wrap gap-10 p-1 sm:p-10 py-40">
             
             {
               proyectos.map((proyecto ,i)=>{
                  
                 return(
-                    <div onClick={()=>{setProyecto_info(proyecto)}} key={i+150} className="hover:scale-110 transition-all flex flex-col items-center justify-center gap-10  w-96  bg-zinc-800 pt-5 rounded-l-2xl animacion1">
-                        <div className="flex flex-row rounded-l-full bg-zinc-900 p-2 h-40 shadow-b">
-                        <img className="w-64 h-full rounded-l-full" src={`/proyectos/${proyecto.id}/1.webp`} alt="" />
-                           <ul className={`flex flex-col gap-2 justify-center overflow-auto items-center w-full h-full p-3 ${(proyecto.id==0) ? "pt-24" : null}`}>
+                    <div onClick={()=>{setProyecto_info(proyecto)}} key={i+150} className="hover:scale-110 transition-all flex flex-col items-center justify-center gap-10 w-full  sm:w-96  bg-zinc-800 pt-5 rounded-l-2xl animacion1">
+                        <div className="flex flex-col sm:flex-row rounded-xl sm:rounded-l-full w-11/12 bg-zinc-900 p-2 sm:h-40 h-56 shadow-b items-center">
+                        <img className="w-64 h-full  sm:rounded-l-full" src={`/proyectos/${proyecto.id}/1.webp`} alt="" />
+                           <ul className={`flex flex-row sm:flex-col gap-2 justify-center overflow-auto items-center w-full h-full p-3 ${(proyecto.id==0) ? "sm:pt-24" : null}`}>
                              {
                                 proyecto.stack.map((s,i)=>{
                                     return(

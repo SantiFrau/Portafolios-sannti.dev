@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .bg-white-200{
   background-color: #bbb;
 }
@@ -10,13 +9,13 @@
   box-shadow: 0px 0px 2px 0px #bbb;
 }
 
-.fondo_img{
+.fondo_img {
   background-image: url("/fondo.jpg");
-    background-size: cover; /* Para que la imagen de fondo cubra todo el contenedor */
-    background-position: center; /* Centrar la imagen de fondo */
-    background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
-  height: 100dvh;
-  width: 100%;
+  background-size: cover; /* Para que la imagen de fondo cubra todo el contenedor */
+  background-position: center; /* Centrar la imagen de fondo */
+  background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
+  height: 100%; /* Ocupa el 100% de la altura del viewport */
+  width: 100%; /* Ocupa el 100% del ancho del contenedor */
   position: fixed;
   z-index: -1;
 }
@@ -242,4 +241,8 @@
 }
 
 
+
+.transicion {
+  transition: all 0.5s ease; /* Transición de todos los cambios durante 0.5 segundos con una función de temporización 'ease' */
+}
 

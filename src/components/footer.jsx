@@ -6,8 +6,8 @@ export default function Footer(){
 
     return (
         <footer id="end" className="w-full h-max text-white  flex flex-col">
-         <div className=' w-full h-max  bg-black bg-opacity-90 flex flex-row gap-5 py-10 justify-between'>
-         <div className='flex flex-row w-max h-max gap-5 p-3 px-8'>
+         <div className=' w-full h-max  bg-black bg-opacity-90 flex flex-col md:flex-row gap-5 py-10 sm:justify-between'>
+         <div className='flex flex-row h-max gap-5 p-3 px-8 items-center justify-center'>
             <div className=' kalam font-bold text-4xl'>
                 {
                     "</>"
@@ -19,8 +19,8 @@ export default function Footer(){
             </div>
          </div>
 
-         <div>
-            <h5 className='font-bold text-xl kalam'>Redes</h5>
+         <div className='w-full flex items-center justify-center'>
+            <h5 className='font-bold text-xl kalam hidden sm:block'>Redes:</h5>
             <ul className='flex flex-row gap-2'>
                 <li><a target="_blank" href=""><InstagramIcon className='hover:text-zinc-400' style={{fontSize:38}}></InstagramIcon></a></li>
                 <li><a target="_blank" href=""><GitHubIcon className='hover:text-zinc-400' style={{fontSize:38}}></GitHubIcon></a></li>
@@ -28,7 +28,7 @@ export default function Footer(){
             </ul>
          </div>
 
-         <div className='flex flex-col items-center justify-center w-max h-max p-5'>
+         <div className='flex flex-col items-center justify-center  h-max p-5'>
             <h5 className=''><span className='kalam text-lg font-bold'>Email: </span> santiagofrau3@gmail.com</h5>
          </div>
          

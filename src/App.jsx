@@ -10,16 +10,18 @@ function App() {
     
     <>
      <div className="fondo_img"></div>
-      <Inicio></Inicio>
+     
+     <Inicio></Inicio>
       
-      <About></About>
+     <About></About>
+     
+     <Stack></Stack>
 
-      <Stack></Stack>
+     <Proyectos></Proyectos>
 
-      <Proyectos></Proyectos>
-
-
-      <Footer></Footer>
+     
+     <Footer></Footer>
+      
     </>
   )
 }

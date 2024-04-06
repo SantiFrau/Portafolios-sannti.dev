@@ -3,16 +3,16 @@
 export default function About() {
 
     return (
-        <div id="sobre-mi" className="w-full h-max flex flex-row gap-10 pb-20 pt-20 bg-white-200">
+        <div id="sobre-mi" className="w-full h-full flex md:flex-row flex-col gap-10 pb-20 pt-20 bg-white-200">
 
-                                  <div className="relative bg-white-200 w-1/3 flex items-center justify-center py-10 animacion1">
+                                  <div className="relative bg-white-200 w-11/12 md:w-1/3 flex items-center justify-center py-10 animacion1">
                                     <div className="z-20 w-64 h-40 relative"> 
                                       <div className="frame"></div>
                                       <img className="w-full h-full object-cover img" src="/perfil.webp" alt="" />
                                     </div>
                                   </div>
 
-            <div className="w-2/3 py-10 flex justify-center animacion1 ">
+            <div className="md:w-2/3 w-full py-10 flex justify-center animacion1 ">
                 
                 <section className=" flex flex-col justify-center bg-white-200 gap-2 px-10 ">
                  <h3 className=" kalam text-4xl font-thin ">Santiago Frau</h3>
