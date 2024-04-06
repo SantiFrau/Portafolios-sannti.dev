@@ -169,4 +169,73 @@
 }
 
 
+/*Animacion de la imagen del modal*/
+
+@keyframes derecha {
+  0% {
+    transform: translateX(-400px);
+    scale: 0.3;
+  }
+  100% {
+    transform: translateX(0);
+    scale: 1;
+    
+  }
+}
+
+@keyframes izquierda {
+  0% {
+    transform: translateX(400px);
+    scale: 0.3;
+  }
+  100% {
+    transform: translateX(0);
+    scale: 1;
+  }
+}
+@keyframes fadeout_iz {
+  0% {
+    opacity: 1;
+    scale: 1;
+    transform: translateX(0)
+  }
+  100% {
+    opacity: 0;
+    scale: 0.3;
+    display: none;
+    transform: translateX(-500px);
+  }
+}
+@keyframes fadeout_derecha {
+  0% {
+    opacity: 1;
+    scale: 1;
+    transform: translateX(0)
+  }
+  100% {
+    opacity: 0;
+    scale: 0.3;
+    display: none;
+    transform: translateX(1000px);
+  }
+}
+
+.izquierda {
+  animation: izquierda 400ms ease-in-out forwards;
+}
+
+.derecha {
+  animation: derecha 400ms ease-in-out forwards;
+}
+
+.desaparecer_izquierda{
+  animation: fadeout_iz 400ms ease-in-out forwards;
+  
+}
+.desaparecer_derecha{
+  animation: fadeout_derecha 400ms ease-in-out forwards;
+  
+}
+
+
 
