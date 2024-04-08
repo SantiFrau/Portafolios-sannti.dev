@@ -8,7 +8,7 @@ export default function About() {
                                   <div className="relative bg-white-200 w-11/12 md:w-1/3 flex items-center justify-center py-10 animacion1">
                                     <div className="z-20 w-64 h-40 relative"> 
                                       <div className="frame"></div>
-                                      <img className="w-full h-full object-cover img" src="/perfil.webp" alt="" />
+                                      <img className="w-full h-full object-cover img" src="/Portafolios-sannti.dev/perfil.webp" alt="" />
                                     </div>
                                   </div>
 

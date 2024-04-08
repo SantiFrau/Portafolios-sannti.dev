@@ -17,7 +17,7 @@ export default function Stack () {
                  lenguajes.map((lenguaje,i)=>{
                     return(
                         <div key={i} className="flex flex-col items-center justify-center  w-max">
-                         <img className="w-12" src={`/icons/${lenguaje.img}`} alt={`img ${lenguaje.name}`} />
+                         <img className="w-12" src={`/Portafolios-sannti.dev/icons/${lenguaje.img}`} alt={`img ${lenguaje.name}`} />
                          <p>{lenguaje.name}</p>
                         </div>
                     )
@@ -32,7 +32,7 @@ export default function Stack () {
                     otros.map((otro,i)=>{
                         return(
                             <div key={i+30} className="flex flex-col items-center justify-center w-max">
-                                <img className="w-12" src={`/icons/${otro.img}`} alt={`img ${otro.name}`} />
+                                <img className="w-12" src={`/Portafolios-sannti.dev/icons/${otro.img}`} alt={`img ${otro.name}`} />
                                 <p>{otro.name}</p>
                             </div>
                         )
@@ -48,7 +48,7 @@ export default function Stack () {
                     frameworks.map((framework,i)=>{
                         return(
                             <div key={i+60} className="flex flex-col items-center justify-center ">
-                                <img className="w-12" src={`/icons/${framework.img}`} alt={`img ${framework.name}`} />
+                                <img className="w-12" src={`/Portafolios-sannti.dev/icons/${framework.img}`} alt={`img ${framework.name}`} />
                                 <p>{framework.name}</p>
                             </div>
                         )

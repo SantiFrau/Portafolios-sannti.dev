@@ -56,8 +56,8 @@ export default function Modal_info({setProyecto_info,proyecto_info}) {
             </div>
             
            
-            <Img className={`${animacion.movimiento} z-10 w-2/3 `} src={`/proyectos/${proyecto_info.id}/${imagen}.webp`}  />
-            <Img className={`w-2/3 ${animacion.movimiento} ${animacion.desaparecer}  absolute z-0 `} src={`/proyectos/${proyecto_info.id}/${prevSource}.webp`}
+            <Img className={`${animacion.movimiento} z-10 w-2/3 `} src={`/Portafolios-sannti.dev/proyectos/${proyecto_info.id}/${imagen}.webp`}  />
+            <Img className={`w-2/3 ${animacion.movimiento} ${animacion.desaparecer}  absolute z-0 `} src={`/Portafolios-sannti.dev/proyectos/${proyecto_info.id}/${prevSource}.webp`}
              />
              <div className="w-max h-full flex items-center justify-center hover:text-zinc-400 cursor-pointer px-3" onClick={(event)=>{event.stopPropagation(); next(proyecto_info.imagenes)}} >
              <ArrowForwardIosIcon  style={{fontSize:36}}></ArrowForwardIosIcon>
@@ -74,7 +74,7 @@ export default function Modal_info({setProyecto_info,proyecto_info}) {
                   proyecto_info.stack.map((s,i)=>{
                     return(
                         <li className={`${stack[s].color} bg-opacity-20 p-2 px-8 flex items-center justify-center rounded-lg `} key={`a${i}`}>
-                            <img className="w-8" src={`/icons/${stack[s].img}`} alt="" />
+                            <img className="w-8" src={`/Portafolios-sannti.dev/icons/${stack[s].img}`} alt="" />
                         </li>
                     )
                   })

@@ -43,7 +43,7 @@ export default function Inicio () {
                   </ul>
                   <div className="w-1/4 px-5 flex justify-end">
          
-                  <img className="w-10 h-10 object-cover rounded-full" style={{aspectRatio:1/1}} src="/perfil.webp" alt="" />
+                  <img className="w-10 h-10 object-cover rounded-full" style={{aspectRatio:1/1}} src="/Portafolios-sannti.dev/perfil.webp" alt="" />
                   </div>
                </nav>
 

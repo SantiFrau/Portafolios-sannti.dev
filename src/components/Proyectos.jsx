@@ -30,13 +30,13 @@ export default function Proyectos(){
                 return(
                     <div onClick={()=>{setProyecto_info(proyecto)}} key={i+150} className="hover:scale-110 transition-all flex flex-col items-center justify-center gap-10 w-full  sm:w-96  bg-zinc-800 pt-5 rounded-l-2xl animacion1">
                         <div className="flex flex-col sm:flex-row rounded-xl sm:rounded-l-full w-11/12 bg-zinc-900 p-2 sm:h-40 h-56 shadow-b items-center">
-                        <img className="w-64 h-full  sm:rounded-l-full" src={`/proyectos/${proyecto.id}/1.webp`} alt="" />
+                        <img className="w-64 h-full  sm:rounded-l-full" src={`/Portafolios-sannti.dev/proyectos/${proyecto.id}/1.webp`} alt="" />
                            <ul className={`flex flex-row sm:flex-col gap-2 justify-center overflow-auto items-center w-full h-full p-3 ${(proyecto.id==0) ? "sm:pt-24" : null}`}>
                              {
                                 proyecto.stack.map((s,i)=>{
                                     return(
                                         <li key={i} className={`w-10 ${stack[s].color} p-1.5 bg-opacity-30 rounded-xl `}> 
-                                            <img className="w-full" src={`/icons/${stack[s].img}`} alt="" />
+                                            <img className="w-full" src={`/Portafolios-sannti.dev/icons/${stack[s].img}`} alt="" />
                                         </li>
                                     )
                                 })
