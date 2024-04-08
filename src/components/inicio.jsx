@@ -34,11 +34,11 @@ export default function Inicio () {
                 <nav className="hidden md:flex bg-zinc-900 bg-opacity-80 w-full h-12 fixed mt-8 nav z-10 flex-row justify-between items-center">
                    <h3 className="hover:text-zinc-400 cursor-pointer text-white px-5 w-1/4"><a href="https://www.instagram.com/sannti.dev/" target="_blank"><InstagramIcon></InstagramIcon> Sannti.dev</a> </h3>
                   <ul className="h-full w-full flex flex-row gap-10 items-center justify-center">
-                    <li className="text-white kalam hover:text-zinc-400 "><a href="#top">Inicio</a></li>
-                    <li className="text-white kalam hover:text-zinc-400 "><a href="#sobre-mi">Sobre mi</a></li>
-                    <li className="text-white kalam hover:text-zinc-400 "><a href="#stack">Stack</a></li>
-                    <li className="text-white kalam hover:text-zinc-400 "><a href="#proyectos">Proyectos</a></li>
-                    <li className="text-white kalam hover:text-zinc-400 "><a href="#end">Contacto</a></li>
+                    <li className="text-white kalam hover:text-zinc-400 "><a className="w-full h-full" href="#top">Inicio</a></li>
+                    <li className="text-white kalam hover:text-zinc-400 "><a className="w-full h-full" href="#sobre-mi">Sobre mi</a></li>
+                    <li className="text-white kalam hover:text-zinc-400 "><a className="w-full h-full" href="#stack">Stack</a></li>
+                    <li className="text-white kalam hover:text-zinc-400 "><a className="w-full h-full" href="#proyectos">Proyectos</a></li>
+                    <li className="text-white kalam hover:text-zinc-400 "><a className="w-full h-full" href="#end">Contacto</a></li>
                     
                   </ul>
                   <div className="w-1/4 px-5 flex justify-end">
@@ -63,11 +63,11 @@ export default function Inicio () {
                   </div>
   
               <ul className={`transicion ${menu ? "flex" : "hidden"} h-full w-full flex-col gap-3 items-center justify-center bg-zinc-900 bg-opacity-80`}>
-                 <li onClick={()=>{setMenu(!menu)}} className="focus:bg-zinc-800 hover:bg-zinc-800 text-white kalam hover:text-zinc-400 p-3"><a href="#top">Inicio</a></li>
-                 <li onClick={()=>{setMenu(!menu)}} className="focus:bg-zinc-800 hover:bg-zinc-800 text-white kalam hover:text-zinc-400 p-3"><a href="#sobre-mi">Sobre mi</a></li>
-                 <li onClick={()=>{setMenu(!menu)}} className="focus:bg-zinc-800 hover:bg-zinc-800 text-white kalam hover:text-zinc-400 p-3"><a href="#stack">Stack</a></li>
-                 <li onClick={()=>{setMenu(!menu)}} className="focus:bg-zinc-800 hover:bg-zinc-800 text-white kalam hover:text-zinc-400 p-3"><a href="#proyectos">Proyectos</a></li>
-                 <li onClick={()=>{setMenu(!menu)}} className="focus:bg-zinc-800 hover:bg-zinc-800 text-white kalam hover:text-zinc-400 p-3"><a href="#end">Contacto</a></li>
+                 <li onClick={()=>{setMenu(!menu)}} className="focus:bg-zinc-800 hover:bg-zinc-800 text-white kalam hover:text-zinc-400 w-full "><a className="w-full h-full" href="#top"><p className="w-full text-center">Inicio</p></a></li>
+                 <li onClick={()=>{setMenu(!menu)}} className="focus:bg-zinc-800 hover:bg-zinc-800 text-white kalam hover:text-zinc-400 w-full"><a className="w-full h-full" href="#sobre-mi"><p className="w-full text-center">Sobre mi</p></a></li>
+                 <li onClick={()=>{setMenu(!menu)}} className="focus:bg-zinc-800 hover:bg-zinc-800 text-white kalam hover:text-zinc-400 w-full"><a className="w-full h-full" href="#stack"><p className="w-full text-center">Stack</p></a></li>
+                 <li onClick={()=>{setMenu(!menu)}} className="focus:bg-zinc-800 hover:bg-zinc-800 text-white kalam hover:text-zinc-400 w-full"><a className="w-full h-full" href="#proyectos"><p className="w-full text-center">Proyectos</p></a></li>
+                 <li onClick={()=>{setMenu(!menu)}} className="focus:bg-zinc-800 hover:bg-zinc-800 text-white kalam hover:text-zinc-400 w-full"><a className="w-full h-full" href="#end"><p className="w-full text-center">Contacto</p></a></li>
               </ul>
              </nav> 
 
