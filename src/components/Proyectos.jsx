@@ -35,7 +35,7 @@ export default function Proyectos(){
                              {
                                 proyecto.stack.map((s,i)=>{
                                     return(
-                                        <li key={i} className={`w-10 ${stack[s].color} p-1.5 bg-opacity-30 rounded-xl `}> 
+                                        <li key={i} className={`w-10 ${stack[s].color} p-1.5 bg-opacity-30 rounded-xl ${(stack[s].name=="TAILWIND") ? "py-3" : null} `}> 
                                             <img className="w-full" src={`/Portafolios-sannti.dev/icons/${stack[s].img}`} alt="" />
                                         </li>
                                     )
