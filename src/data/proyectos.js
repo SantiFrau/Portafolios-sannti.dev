@@ -67,6 +67,28 @@ export const proyectos = [
         text:"text-gris-op-200",
         color2:"bg-gris-op-300"
     },
+    {
+        id:6,
+        name:"Instagram Clon",
+        descripcion:"Clon del fronntend de instagram responsive con algunas opciones basicas como historias, publicaciones, chats." ,
+        stack:[0,1,2,3,4],
+        link:[{link:"https://github.com/SantiFrau/Clon_ig",name:"Github"},{link:"https://santifrau.github.io/Clon_ig/",name:"Sitio"}],
+        imagenes:3,
+        color:"bg-gris-op-100",
+        text:"text-gris-op-200",
+        color2:"bg-gris-op-300"
+    },
+    {
+        id:7,
+        name:"Portafolio",
+        descripcion:"Primer portafolios que diseñe (SPA) con react-router" ,
+        stack:[0,1,2,3,4],
+        link:[{link:"https://github.com/SantiFrau/Portafolio",name:"Github"},{link:"https://santifrau.github.io/Portafolio/",name:"Sitio"}],
+        imagenes:3,
+        color:"bg-gris-op-100",
+        text:"text-gris-op-200",
+        color2:"bg-gris-op-300"
+    },
     
    
 ]
