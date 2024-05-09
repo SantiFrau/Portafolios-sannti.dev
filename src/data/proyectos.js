@@ -1,5 +1,16 @@
 export const proyectos = [
     {
+        id:8,
+        name:"Restaurante",
+        descripcion:"Diseño y desarrollo de plantilla de sitio web para restaurantes",
+        stack:[0,1,2,3,4],
+        link:[{link:"https://github.com/SantiFrau/Plantilla_Restaurante",name:"Github"},{link:"https://santifrau.github.io/Plantilla_Restaurante/",name:"Sitio"}],
+        imagenes:3,
+        color:"bg-negro-op-100",
+        text:"text-negro-op-200",
+        color2:"bg-negro-op-300"
+    } ,
+    {
         id:0,
         name:"Spotify Clon - PC",
         descripcion:"Clon de spotify SPA (con react-router) con reproductor funcional, busqueda de canciones, control de volumen, y una interfaz igual a la de spotify",

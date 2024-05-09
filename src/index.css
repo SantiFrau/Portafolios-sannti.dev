@@ -10,7 +10,7 @@
 }
 
 .fondo_img {
-  background-image: url("/Portafolios-sannti.dev/fondo.jpg");
+  background-image: url("/Portafolios-sannti.dev/fondo.webp");
   background-size: cover; /* Para que la imagen de fondo cubra todo el contenedor */
   background-position: center; /* Centrar la imagen de fondo */
   background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
