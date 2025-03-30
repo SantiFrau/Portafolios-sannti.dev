@@ -1,4 +1,20 @@
-export const lenguajes = [
+export const back = [
+    {
+        img:"node.webp",
+        name:"NodeJs",
+        color:"bg-green-400"
+    },
+    {
+        img:"express.webp",
+        name:"Express",
+        color:"bg-green-600"
+    },
+    {
+        img:"Mysql.webp",
+        name:"Mysql",
+        color:"bg-white"
+    },]
+export const front =[
     {
         img:"html.webp",
         name:"HTML",
@@ -13,8 +29,7 @@ export const lenguajes = [
         img:"js.webp",
         name:"JAVASCRIPT",
         color:"bg-yellow-600"
-    },]
-export const frameworks =[
+    },
     {
         img:"react.webp",
         name:"REACT",
@@ -25,16 +40,7 @@ export const frameworks =[
         name:"TAILWIND",
         color:"bg-sky-400"
     },
-    {
-         img:"astro.svg",
-         name:"ASTRO",
-         color:"bg-gray-500"
-    },
-    {
-        img:"next.webp",
-        name:"NEXTjs",
-        color:"bg-zinc-700"
-    },]
+    ]
 export const otros  = [
     {
         img:"git.webp",
@@ -93,6 +99,21 @@ export const stack = [
         img:"github.webp",
         name:"GITHUB"
     },
+    {
+        img:"node.webp",
+        name:"NodeJs",
+        color:"bg-green-400"
+    },
+    {
+        img:"express.webp",
+        name:"Express",
+        color:"bg-green-600"
+    },
+    {
+        img:"Mysql.webp",
+        name:"Mysql",
+        color:"bg-white"
+    }
 
 
 ]

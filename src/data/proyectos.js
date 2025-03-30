@@ -6,9 +6,6 @@ export const proyectos = [
         stack:[0,1,2,3,4],
         link:[{link:"https://github.com/SantiFrau/Plantilla_Restaurante",name:"Github"},{link:"https://santifrau.github.io/Plantilla_Restaurante/",name:"Sitio"}],
         imagenes:3,
-        color:"bg-negro-op-100",
-        text:"text-negro-op-200",
-        color2:"bg-negro-op-300"
     } ,
     {
         id:0,
@@ -17,9 +14,6 @@ export const proyectos = [
         stack:[0,1,2,3,4],
         link:[{link:"https://github.com/SantiFrau/Clon_Spotify",name:"Github"},{link:"https://santifrau.github.io/Clon_Spotify/",name:"Sitio"}],
         imagenes:3,
-        color:"bg-verde-op-100",
-        text:"text-verde-op-200",
-        color2:"bg-verde-op-300"
     } ,
     {
         id:1,
@@ -28,9 +22,6 @@ export const proyectos = [
         stack:[1,2,3],
         link:[{link:"https://github.com/SantiFrau/Tic_Tac_Toe",name:"Github"},{link:"https://santifrau.github.io/Tic_Tac_Toe/",name:"Sitio"}],
         imagenes:2,
-        color:"bg-violeta-op-100",
-        text:"text-violeta-op-200",
-        color2:"bg-violeta-op-300"
     },
     {
         id:2,
@@ -39,9 +30,6 @@ export const proyectos = [
         stack:[4,6],
         link:[{link:"https://github.com/SantiFrau/Administrador-de-tareas-Desplegado-",name:"Github"},{link:"https://administrador-de-tareas-6i06s5v1l-santiago-fraus-projects.vercel.app/",name:"Sitio"}],
         imagenes:2,
-        color:"bg-sky-op-100",
-        text:"text-sky-op-200",
-        color2:"bg-sky-op-300"
     },
 
     {
@@ -51,9 +39,6 @@ export const proyectos = [
         stack:[1,2,3,4],
         link:[{link:"https://github.com/SantiFrau/Preguntados",name:"Github"},{link:"https://santifrau.github.io/Preguntados/",name:"Sitio"}],
         imagenes:3,
-        color:"bg-negro-op-100",
-        text:"text-negro-op-200",
-        color2:"bg-negro-op-300"
     },
     {
         id:4,
@@ -62,9 +47,6 @@ export const proyectos = [
         stack:[1,2,3],
         link:[{link:"https://github.com/SantiFrau/Ecomerce",name:"Github"},{link:"https://santifrau.github.io/Ecomerce/",name:"Sitio"}],
         imagenes:2,
-        color:"bg-azul-op-100",
-        text:"text-azul-op-200",
-        color2:"bg-azul-op-300"
     },
    
     {
@@ -74,9 +56,6 @@ export const proyectos = [
         stack:[0,1,2],
         link:[{link:"https://github.com/SantiFrau/Calculadora",name:"Github"},{link:"https://santifrau.github.io/Calculadora/",name:"Sitio"}],
         imagenes:2,
-        color:"bg-gris-op-100",
-        text:"text-gris-op-200",
-        color2:"bg-gris-op-300"
     },
     {
         id:6,
@@ -85,9 +64,6 @@ export const proyectos = [
         stack:[0,1,2,3,4],
         link:[{link:"https://github.com/SantiFrau/Clon_ig",name:"Github"},{link:"https://santifrau.github.io/Clon_ig/",name:"Sitio"}],
         imagenes:3,
-        color:"bg-gris-op-100",
-        text:"text-gris-op-200",
-        color2:"bg-gris-op-300"
     },
     {
         id:7,
@@ -96,9 +72,14 @@ export const proyectos = [
         stack:[0,1,2,3,4],
         link:[{link:"https://github.com/SantiFrau/Portafolio",name:"Github"},{link:"https://santifrau.github.io/Portafolio/",name:"Sitio"}],
         imagenes:3,
-        color:"bg-gris-op-100",
-        text:"text-gris-op-200",
-        color2:"bg-gris-op-300"
+    },
+    {
+        id:9,
+        name:"Tienda online",
+        descripcion:"Desarrollé una tienda online con carrito, filtros de búsqueda y autenticación. Creé la base de datos en MySQL y una API con Node.js y Express para gestionar usuarios y productos (CRUD)." ,
+        stack:[3,4,9,10,11],
+        link:[{link:"https://github.com/SantiFrau/Tienda_online",name:"Github"},{link:"",name:"Sitio"}],
+        imagenes:3,
     },
     
    
