@@ -2,17 +2,17 @@ export const back = [
     {
         img:"node.webp",
         name:"NodeJs",
-        color:"bg-green-400"
+        color:"bg-green-500"
     },
     {
         img:"express.webp",
         name:"Express",
-        color:"bg-green-600"
+        color:"bg-green-700"
     },
     {
         img:"Mysql.webp",
         name:"Mysql",
-        color:"bg-white"
+        color:"bg-zinc-400"
     },]
 export const front =[
     {
@@ -45,11 +45,13 @@ export const otros  = [
     {
         img:"git.webp",
         name:"GIT",
+        color:"bg-red-400"
        
     },
     {
         img:"github.webp",
-        name:"GITHUB"
+        name:"GITHUB",
+        color:"bg-gray-600"
     },
 
 ]
@@ -102,17 +104,17 @@ export const stack = [
     {
         img:"node.webp",
         name:"NodeJs",
-        color:"bg-green-400"
+        color:"bg-green-500"
     },
     {
         img:"express.webp",
         name:"Express",
-        color:"bg-green-600"
+        color:"bg-green-700"
     },
     {
         img:"Mysql.webp",
         name:"Mysql",
-        color:"bg-white"
+        color:"bg-zinc-200"
     }
 
 

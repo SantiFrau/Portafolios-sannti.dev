@@ -21,15 +21,15 @@ export default function Proyectos(){
 
     return(
         <>
-        <h4 className="w-full h-full p-10 text-center text-red-600 text-4xl font-bold kalam bg-black bg-opacity-80">Proyectos</h4>
-        <aside id="proyectos" className="w-full h-max bg-zinc-900 flex flex-row items-center justify-center flex-wrap gap-10 p-1 sm:p-10 py-40">
+        <h4 className="w-full h-full p-10 text-center text-amber-400 text-4xl font-bold kalam bg-black bg-opacity-80">Proyectos</h4>
+        <aside id="proyectos" className="shadow2 w-full h-max bg-gray-950 flex flex-row items-center justify-center flex-wrap gap-10 p-1 sm:p-10 py-40">
             
             {
               proyectos.map((proyecto ,i)=>{
                  
                 return(
-                    <div onClick={()=>{setProyecto_info(proyecto)}} key={i+150} className="hover:scale-110 transition-all flex flex-col items-center justify-center gap-10 w-full  sm:w-96  bg-zinc-800 pt-5 rounded-l-2xl animacion1">
-                        <div className="flex flex-col sm:flex-row rounded-xl sm:rounded-l-full w-11/12 bg-zinc-900 p-2 sm:h-40 h-56 shadow-b items-center">
+                    <div onClick={()=>{setProyecto_info(proyecto)}} key={i+150} className="hover:scale-110 transition-all flex flex-col items-center justify-center gap-10 w-full  sm:w-96  bg-blue-950/70 pt-5 rounded-l-2xl animacion1">
+                        <div className="flex flex-col sm:flex-row rounded-xl sm:rounded-l-full w-11/12 bg-zinc-950 p-2 sm:h-40 h-56 shadow-b items-center">
                         <img className="w-64 h-full  sm:rounded-l-full" src={`/Portafolios-sannti.dev/proyectos/${proyecto.id}/1.webp`} alt="" />
                            <ul className={`flex flex-row sm:flex-col gap-2 overflow-auto items-center w-full h-full`}>
                              {
@@ -45,7 +45,7 @@ export default function Proyectos(){
                            </ul>
                         </div>
                         
-                        <p className="bg-opacity-70 text-lg kalam font-bold bg-zinc-900 text-white w-full h-full py-5 text-center">{proyecto.name}</p>
+                        <p className=" text-lg kalam font-bold bg-gray-950/80 color2 w-full h-full py-5 text-center">{proyecto.name}</p>
                         
                     </div>
                 )

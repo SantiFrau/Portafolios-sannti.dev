@@ -34,7 +34,7 @@ export default function Footer(){
          
          </div>
           
-          <div className='bg-zinc-900 flex flex-row items-center justify-center text-zinc-300 p-8'>
+          <div className='bg-gray-950 flex flex-row items-center justify-center text-zinc-300 p-8 shadow2'>
             <p>Copyright © 2024 - sannti.dev -</p>
           </div>
         </footer>

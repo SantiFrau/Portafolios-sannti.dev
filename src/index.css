@@ -72,10 +72,10 @@
 }
 
 .text-shadow-r{
-  text-shadow: 5px 5px 10px #9b0000;
+  text-shadow: 1px 1px 5px #3cb371;
 }
 .text-shadow-y{
-  text-shadow: 0px 0px 10px #e69d00;
+  text-shadow: 0px 0px 10px #00bfff;
 }
 @keyframes aparecer {
    from{
@@ -246,3 +246,26 @@
   transition: all 0.5s ease; /* Transición de todos los cambios durante 0.5 segundos con una función de temporización 'ease' */
 }
 
+.color1{
+  color: #3cb371;
+}
+
+.color2{
+color: #00bfff;
+}
+.fondo{
+  background-color: #1a1a1a;
+}
+.fondo1{
+  background-color: #2a2a2a;
+}
+.texto{
+  color: #f1f1f1;
+}
+
+.shadow1{
+  box-shadow: 5px 7px 20px #ffae00aa;
+}
+.shadow2{
+  box-shadow: 5px 7px 20px #006effaa;
+}
